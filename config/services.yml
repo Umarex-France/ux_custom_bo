@@ -1,0 +1,9 @@
+services:
+  ux_custom_bo.asset:
+    class: PrestaShop\PrestaShop\Core\Module\Widget\WidgetAsset
+    arguments:
+      - 'modules/ux_custom_bo/views/css/admin.css'
+      - 'stylesheet'
+      - { priority: 150 }
+    tags:
+      - { name: 'prestashop.assets' }

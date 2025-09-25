@@ -1,0 +1,22 @@
+/* Legacy Dashboard (bootstrap) + Modern pages (main-header) */
+#header.bootstrap,
+.main-header {
+	--cdk-header-bg: #ee0000 !important;
+}
+
+/* Logo : cible l’élément #header_logo avec ou sans .logo */
+#header_logo {
+	background: url('../img/LogoUX_Prestashop.svg') no-repeat center center !important;
+	background-size: contain !important;
+	width: 12rem !important;
+	height: 40px !important;
+	margin: auto 0 auto 0.25em !important;
+}
+
+/* Version affichée : pour les deux structures */
+#shop_version,
+.main-header #shop_version {
+	background-color: #66666666 !important;
+	padding: 0.25rem 0.75rem !important ;
+	border-radius: 5rem !important;
+}
